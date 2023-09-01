@@ -25,9 +25,9 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/member")
 @Slf4j
 public class MyController {
-
-        @Autowired
-        private MemberDAO memberDAO;
+    //test
+    @Autowired
+    private MemberDAO memberDAO;
 
     @GetMapping("/")
     public String Hello() {
